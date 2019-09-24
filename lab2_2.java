@@ -8,6 +8,8 @@ public class lab2_2 {
     uselessBool = player.equals("black") || print("我不是黑方");
     uselessBool = player.equals("white") && print("我是白方");
     uselessBool = player.equals("white") || print("我不是白方");
+    System.out.println(uselessBool);
+    System.out.println(!uselessBool);
   }
 
   public static boolean print(String sentence) {
